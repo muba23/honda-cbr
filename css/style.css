@@ -5,6 +5,7 @@ body{
 }
 .container-fluid{
     background-color: #264653;
+    width: 100%;
 }
 .button{
     background-color: #E76F51;
@@ -12,4 +13,7 @@ body{
 .read-more-button{
     border: 1px solid #E76F51;
     color: #E76F51;
+}
+.form-background{
+    background-color: #fceae8;
 }

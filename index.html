@@ -15,23 +15,23 @@
 <body>
     <header>
         <!---------------- purchase ------------------>
-        <section class="container-fluid">
-            <div class="d-flex justify-content-around align-items-center text-white p-5">
-                <div class="col-lg-7 col-md-6 col-12">
+        <section class="container-fluid pt-5">
+            <div class="d-flex justify-content-center align-items-center text-white p-5">
+                <div>
                     <p>Computer-controlled digital transistorized with electronic advance</p>
                     <h1>Honda CBR 300R</h1>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     <button type="button" class="btn button text-white px-5 py-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
                     <!--------- Modal ----------->
-                    <div class="modal fade modal-dialog modal-dialog-centered modal-dialog-scrollable" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade modal-dialog modal-dialog-centered" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 class="modal-title" >Modal title</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                            ...
+                                <p>Modal body text goes here.</p>
                             </div>
                             <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -39,10 +39,11 @@
                             </div>
                         </div>
                         </div>
-                    </div>
                 </div>
+                </div>
+                    
                 <div class="col-lg-5 col-md-6 col-12">
-                    <img src="images/header-bike.png" alt="">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
                 </div>
             </div>
         </section>
@@ -158,64 +159,94 @@
         <!------- frequntly asked questions  ---------->
         <section class="container my-5">
             <h1 class="text-center my-5">Frequently Asked <span style="color: #E76F51;">Questions</span></h1>
-            <div class="d-flex justify-content-between align-items-center">
-                <div>
-                    <img src="images/faq (1).png" alt="">
-                </div>
-                <div>
-                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                What are the most important things I should know about riding a bike?
-                            </button>
-                          </h2>
-                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
-                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                How can I tell if my helmet is old and I need a new one?
-                            </button>
-                          </h2>
-                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                            <div class="accordion-body">
-                                Bear in mind that if the helmet did its job most people would tell you that they did not even hit their head, or did not hit their head that hard. And the thin shells on most helmets now tend to hide any dents in the foam. But if you can see marks on the shell or measure any foam crush at all, replace the helmet.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                My bike has been in storage is it safe to ride?
-                            </button>
-                          </h2>
-                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                            <div class="accordion-body">
-                                The battery is always a good place to start after your motorcycle has been in storage for a while especially if you didn't have a smart charger on it.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                What rules should I follow when riding my bike?
-                              </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                              <div class="accordion-body">
-                                <strong>Depending on what state you live in, laws like safe passing distance for vehicles and helmet requirements can vary. (Note: We firmly stand by always wearing a helmet.) However, there are a few basic rules for operating a bicycle on the roadway all cyclists are expected to abide by.  
+            
+            <div class="row justify-content-center ">
+                <div class="col-lg-6 col-12">
+                    <div>
+                        <img src="images/faq (1).png" alt="">
+                    </div>
+                    <div>
+                        <div class="row justify-content-center">
+                            <div class="accordion " id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                        What are the most important things I should know about riding a bike?
+                                    </button>
+                                  </h2>
+                                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                        How can I tell if my helmet is old and I need a new one?
+                                    </button>
+                                  </h2>
+                                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        Bear in mind that if the helmet did its job most people would tell you that they did not even hit their head, or did not hit their head that hard. And the thin shells on most helmets now tend to hide any dents in the foam. But if you can see marks on the shell or measure any foam crush at all, replace the helmet.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                  </h2>
+                                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        The battery is always a good place to start after your motorcycle has been in storage for a while especially if you didn't have a smart charger on it.
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        What rules should I follow when riding my bike?
+                                      </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                      <div class="accordion-body">
+                                        <strong>Depending on what state you live in, laws like safe passing distance for vehicles and helmet requirements can vary. (Note: We firmly stand by always wearing a helmet.) However, there are a few basic rules for operating a bicycle on the roadway all cyclists are expected to abide by.  
+                                      </div>
+                                    </div>
+                                  </div>
                               </div>
-                            </div>
-                          </div>
-                      </div>
-                </div>
+                        </div>
+                    </div>
+                    </div>
+                
             </div>
         </section>
+        <!----------- bonus ---------- -->
+        <section style="height: 300px" class="container my-5 form-background d-flex justify-content-center align-items-center rounded-3" id="subscribe">
+            <div>
+              <h1 class="text-center">CONTACT US </h1>
+              <p>Get updates on sales, specials and more</p>
+              <input class="form-control" type="text" placeholder="Your email">
+              <br>
+              <input class="form-control" type="text" placeholder="Your queries">
+              <br>
+            <button class="btn button">SUBMIT</button>
+          </div>
+          </section>
+        <!---------- pagination  ------------>
+       <div class="d-flex align-items-center justify-content-center">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+       </div>
     </main>
     <footer>
 
