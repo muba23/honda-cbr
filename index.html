@@ -15,23 +15,23 @@
 <body>
     <header>
         <!---------------- purchase ------------------>
-        <section class="container-fluid pt-5">
+        <section class="container-fluid pt-4">
             <div class="d-flex justify-content-center align-items-center text-white p-5">
-                <div>
+                <div class="col-lg-6 col-12">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
                     <h1>Honda CBR 300R</h1>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     <button type="button" class="btn button text-white px-5 py-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
                     <!--------- Modal ----------->
-                    <div class="modal fade modal-dialog modal-dialog-centered" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade show modal-dialog" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" role="dialog">
                         <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                            <h5 class="modal-title" >Modal title</h5>
+                            <h5 class="modal-title text-primary" id="exampleModalLabel">About purchase</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
-                                <p>Modal body text goes here.</p>
+                            <div class="modal-body text-dark">
+                                You've come to the right place. In this guide, we'll cover everything you need to know before shopping for an electric bike so that you can buy with confidence.
                             </div>
                             <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -53,7 +53,7 @@
         <section class="container my-5">
             <h1 class="text-center">Featured Bikes 2021</h1>
             <p style="color: #E76F51;" class="text-center"><small>Best bike collection</small></p>
-            <div class="row g-4" >
+            <div class="row g-4 ms-5" >
                     <div class="col-md-6 col-lg-4 col-12">
                         <img style="filter:grayscale(100%)" src="images/feature-bike.png" alt="">
                     </div>
@@ -158,19 +158,16 @@
         </section>
         <!------- frequntly asked questions  ---------->
         <section class="container my-5">
-            <h1 class="text-center my-5">Frequently Asked <span style="color: #E76F51;">Questions</span></h1>
-            
-            <div class="row justify-content-center ">
-                <div class="col-lg-6 col-12">
-                    <div>
+            <h1 class="text-center my-5">Frequently Asked <span style="color: #E76F51;">Questions</span></h1>  
+            <div class="row row-cols-1 row-cols-lg-2 g-5 g-lg-5">         
+            <div class="col">
                         <img src="images/faq (1).png" alt="">
-                    </div>
-                    <div>
-                        <div class="row justify-content-center">
-                            <div class="accordion " id="accordionPanelsStayOpenExample">
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            </div>
+             <div class="col">
+                    <div class="accordion " id="accordionPanelsStayOpenExample">
+                         <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                                         What are the most important things I should know about riding a bike?
                                     </button>
                                   </h2>
@@ -219,9 +216,6 @@
                               </div>
                         </div>
                     </div>
-                    </div>
-                
-            </div>
         </section>
         <!----------- bonus ---------- -->
         <section style="height: 300px" class="container my-5 form-background d-flex justify-content-center align-items-center rounded-3" id="subscribe">
